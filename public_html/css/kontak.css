@@ -1,0 +1,264 @@
+:root {
+  --mainColor: #00142E;
+  --secondaryColor: #32012F;
+  --acsentColor: #DD7900;
+}
+
+/* === General === */
+body {
+  background-color: inherit;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+body.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+.color-acsent {
+  color: var(--acsentColor);
+}
+
+/* === Navbar === */
+.nav-dark {
+  background-color: var(--mainColor) !important;
+  color: #fff !important;
+  padding: 15px 20px;
+  z-index: 10;
+}
+
+.dropdown {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+  min-width: 120px;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+}
+
+.dropdown.open .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-menu button {
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdown-menu button:hover {
+  background: #f0f0f0;
+}
+
+body.dark .dropdown-menu {
+  background: #222;
+  border-color: #444;
+}
+
+body.dark .dropdown-menu button {
+  color: #fff;
+}
+
+body.dark .dropdown-menu button:hover {
+  background: #333;
+}
+
+/* === Contact Section === */
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 20px 40px;
+}
+
+.contact-info {
+  grid-column: span 6;
+}
+
+.section-label {
+  color: var(--acsentColor);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  color: currentColor;
+}
+
+.contact-illustration {
+  grid-column: span 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-illustration img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* === Contact Form === */
+.contact-form {
+  grid-column: span 6;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form .form-label {
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: inherit;
+  display: block;
+}
+
+.contact-form .form-control {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+
+body.dark .contact-form .form-control {
+  background-color: #222;
+  border-color: #555;
+  color: #fff;
+}
+
+.contact-form .btn-primary {
+  background-color: var(--mainColor);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #002952;
+}
+
+/* === Social Media === */
+.social-media {
+  grid-column: span 6;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: currentColor;
+  gap: 10px;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+}
+
+/* === Footer === */
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 40px 0 20px;
+  color: #333;
+  border-top: 2px solid #821131;
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.social-icon-footer {
+  margin-top: 10px;
+}
+
+.social-icon-footer a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover {
+  transform: scale(1.2);
+}
+
+.social-icon-footer svg {
+  fill: #821131;
+  transition: fill 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover svg {
+  fill: #d23a50;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-info,
+  .contact-illustration,
+  .contact-form,
+  .social-media {
+    grid-column: span 1;
+  }
+
+  .contact-form form {
+    gap: 10px;
+  }
+}

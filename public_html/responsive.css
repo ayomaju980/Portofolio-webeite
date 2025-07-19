@@ -1,0 +1,31 @@
+@media screen and (max-width : 1200px) {
+    #hero p{
+        font-size: .9rem;
+    }
+    #hero h1{
+        font-size: .3rem;;
+    }
+}
+
+@media screen and (max-width : 768px){
+    #hero img{
+        width: 60%;
+    }
+    #hero .row{
+        padding-bottom: 75px;
+    }
+}
+    .social-icon {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+}
+
+@media screen and (max-width : 576px)
+
+   
+
+@media screen and (max-width : 350px){
+    
+}

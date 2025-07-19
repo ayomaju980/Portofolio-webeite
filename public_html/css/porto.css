@@ -1,0 +1,444 @@
+:root {
+    --mainColor: #00142E;
+    --secondaryColor: #32012F;
+    --acsentColor: #DD7900;
+}
+
+/* === General === */
+body {
+    background-color: inherit;
+    min-height: 900px;
+    font-family: 'jakartasans', roboto;
+}
+
+body.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+/* === Navbar === */
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+    transition: 0.8s;
+}
+
+.nav-link {
+    color: currentColor !important;
+}
+
+.nav-dark {
+    background-color: var(--mainColor) !important;
+    z-index: 10;
+    color: #fff !important;
+}
+
+#nav {
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-nav {
+    justify-content: center;
+}
+
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.dropdown {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dropdown-toggle svg {
+    width: 32px;
+    height: 32px;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    min-width: 100px;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+}
+
+.dropdown-menu button {
+    padding: 8px 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.dropdown-menu button:hover {
+    background: #f0f0f0;
+}
+
+.dropdown.open .dropdown-menu {
+    display: flex;
+}
+
+body.dark .dropdown-menu {
+    background: #222;
+    border-color: #444;
+}
+
+body.dark .dropdown-menu button {
+    color: #fff;
+}
+
+body.dark .dropdown-menu button:hover {
+    background: #333;
+}
+
+.social-icon {
+    color: inherit !important;
+}
+
+/* end Navbar */
+
+/* Judul */
+#headline {
+    padding-top: 80px;
+    background: radial-gradient(circle at bottom left, #f26bf9, #7e3fa0, #1c1b1f);
+    color: white; /* Untuk memastikan teks kontras */
+}
+
+#headline hr {
+    width: 20%;
+    height: 80px;
+    color: #ffffff;
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#headline h1 {
+    color: #ffffff;
+    padding-top: 40px;
+    font-size: 90px;
+}
+
+#headline p {
+    color: #ffffff;
+    padding-top: -250px;
+    font-size: 18px;
+}
+
+#headline .container {
+    padding: 80px 10px;
+}
+
+
+/* Section Portfolio */
+
+/*typo*/
+#porto {
+    margin-top: 5px;
+    color: currentColor;
+    padding: 80px 80px 100px;
+}
+#porto h1 {
+    font-size: 40px;
+    color: currentColor;
+}
+#porto h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: currentColor;
+}
+
+#porto p{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: currentColor;
+}
+
+#porto img{
+width: 100%;
+padding-top: 80px;
+}
+
+
+#porto2 {
+    margin-top: 0px;
+    color: currentColor;
+    padding: 80px 80px 100px;
+}
+#porto2 h1 {
+    font-size: 40px;
+    color: currentColor;
+}
+#porto2 h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: currentColor;
+}
+
+#porto2 p{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: currentColor;
+}
+
+#porto2 img{
+width: 100%;
+padding-top: 80px;
+}
+
+#porto3 {
+    margin-top: 0px;
+    color: currentColor;
+    padding: 80px 80px 100px;
+}
+#porto3 h1 {
+    font-size: 40px;
+    color: currentColor;
+}
+#porto3 h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: currentColor;
+}
+
+#porto3 p{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: currentColor;
+}
+
+#porto3 img{
+width: 100%;
+padding-top: 80px;
+}
+
+#porto4 {
+    margin-top: 0px;
+    color: currentColor;
+    padding: 80px 80px 100px;
+}
+#porto4 h1 {
+    font-size: 40px;
+    color: currentColor;
+}
+#porto4 h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: currentColor;
+}
+
+#porto4 p{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: currentColor;
+}
+
+#porto4 img{
+width: 100%;
+padding-top: 80px;
+}
+
+#porto5 {
+    margin-top: 0px;
+    color: currentColor;
+    padding: 80px 80px 100px;
+    
+}
+#porto5 h1 {
+    font-size: 40px;
+    color: #000000;
+}
+#porto5 h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: currentColor;
+}
+
+#porto5 p{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: currentColor;
+}
+
+#porto5 img{
+width: 100%;
+padding-top: 80px;
+}
+
+#porto6 {
+    margin-top: 0px;
+    color: currentColor;
+    padding: 80px 80px 100px;
+}
+#porto6 h1 {
+    font-size: 40px;
+    color: currentColor;
+}
+#porto6 h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: currentColor;
+}
+
+#porto6 p{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: currentColor;
+}
+
+#porto6 img{
+width: 100%;
+padding-top: 80px;
+}
+
+
+/*end*/
+
+/*footer*/
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #333;
+    border-top: 2px solid #821131;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.social-icon-footer {
+    margin-top: 10px;
+}
+
+.social-icon-footer a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover {
+    transform: scale(1.2);
+}
+
+.social-icon-footer svg {
+    fill: #821131;
+    transition: fill 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover svg {
+    fill: #d23a50;
+}
+
+/*end*/
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #headline h1 {
+        font-size: 60px;
+    }
+    #porto, #porto2, #porto3, #porto4, #porto5, #porto6 {
+        padding: 100px 50px 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    #headline h1 {
+        font-size: 50px;
+    }
+    #porto, #porto2, #porto3, #porto4, #porto5, #porto6 {
+        padding: 80px 30px 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    #headline h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    #porto, #porto2, #porto3, #porto4, #porto5, #porto6 {
+        padding: 50px 20px 80px;
+    }
+    .toggle-container {
+        top: 5px;
+        right: 5px;
+        gap: 5px;
+    }
+    .toggle-container button {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #headline h1 {
+        font-size: 60px;
+    }
+    #porto, #porto2, #porto3, #porto4, #porto5, #porto6 {
+        padding: 100px 50px 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    #headline h1 {
+        font-size: 50px;
+    }
+    #porto, #porto2, #porto3, #porto4, #porto5, #porto6 {
+        padding: 80px 30px 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    #headline h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    #porto, #porto2, #porto3, #porto4, #porto5, #porto6 {
+        padding: 50px 20px 80px;
+    }
+    .toggle-container {
+        top: 5px;
+        right: 5px;
+        gap: 5px;
+    }
+    .toggle-container button {
+        font-size: 16px;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,33 @@
+RewriteEngine On
+
+DirectoryIndex index.php
+
+# Redirect "Dashboard" to admin.php
+RewriteRule ^Dashboard$ admin.php [L]
+
+# Redirect "Remote" to admin-footer.php
+RewriteRule ^Remote$ admin-footer.php [L]
+
+# Redirect "Login" to login.php
+RewriteRule ^Login$ login.php [L]
+
+# Redirect "Perbaikan" to perbaikan.html
+RewriteRule ^Perbaikan$ perbaikan.html [L]
+
+# Redirect "Curiculum-Vitae" to cv.html
+RewriteRule ^Curiculum-Vitae$ cv.html [L]
+
+# Redirect "MobileApps" to des1.html
+RewriteRule ^MobileApps$ des1.html [L]
+
+# Redirect "Landing-Page" to des2.html
+RewriteRule ^Landing-Page$ des2.html [L]
+
+# Redirect "Contact" to kontak.html
+RewriteRule ^Contact$ kontak.html [L]
+
+# Optional: Redirect root to "Home"
+RewriteRule ^$ index.html [L]
+
+# Redirect "Jawara-mobileapp" to des6.html
+RewriteRule ^Jawara-mobileapp$ des6.html [L]

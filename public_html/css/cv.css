@@ -1,0 +1,261 @@
+:root {
+    --mainColor: #00142E;
+    --secondaryColor: #32012F;
+    --acsentColor: #DD7900;
+}
+
+body {
+    background-color: inherit;
+    min-height: 900px;
+    font-family: 'jakartasans', roboto;
+}
+
+body.light {
+    background: #EEEEEE;
+    color: #000;
+}
+
+body.dark {
+    background: #000;
+    color: #fff;
+}
+
+/* Navbar */
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+    transition: .8s;
+}
+
+.nav-link {
+    color: currentColor !important;
+}
+
+.navbar {
+    background-color: var(--mainColor);
+    color: #ffffff;
+}
+
+.dropdown {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dropdown-toggle svg {
+    width: 32px;
+    height: 32px;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    min-width: 100px;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+}
+
+.dropdown-menu button {
+    padding: 8px 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.dropdown-menu button:hover {
+    background: #f0f0f0;
+}
+
+.dropdown.open .dropdown-menu {
+    display: flex;
+}
+
+body.dark .dropdown-menu {
+    background: #222;
+    border-color: #444;
+}
+
+body.dark .dropdown-menu button {
+    color: #fff;
+}
+
+body.dark .dropdown-menu button:hover {
+    background: #333;
+}
+
+/* Resume */
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-bottom: 60px; /* tambahkan padding bawah */
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #222;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+header a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0073e6;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+section p {
+    color: #000;
+}
+
+.job,
+.education-entry,
+.organization {
+    margin-bottom: 15px;
+}
+
+.job h3,
+.education-entry h3,
+.organization h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #444;
+}
+
+.job p,
+.education-entry p,
+.organization p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.skills p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.skills strong {
+    color: #0073e6;
+}
+
+.btn-custom1 {
+    background-color: transparent;
+    color: var(--acsentColor);
+    border: 2px solid var(--acsentColor);
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s;
+    margin-bottom: 40px;
+}
+
+.btn-custom1:hover {
+    background-color: var(--acsentColor);
+    color: #fff;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #333;
+    border-top: 2px solid #821131;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.social-icon-footer {
+    margin-top: 10px;
+}
+
+.social-icon-footer a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover {
+    transform: scale(1.2);
+}
+
+.social-icon-footer svg {
+    fill: #821131;
+    transition: fill 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover svg {
+    fill: #d23a50;
+}

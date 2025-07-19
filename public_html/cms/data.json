@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "Mobile Banking Apps",
+        "date": "2023-12",
+        "type": [
+            "UI DESIGN",
+            "Mobile Apps"
+        ],
+        "description": "Bank Jawara adalah platform perbankan digital modern yang dirancang untuk memberikan layanan perbankan yang mudah, aman, dan cepat. Dengan fokus utama pada inklusi finansial, Bank Jawara hadir untuk melayani berbagai lapisan masyarakat dengan desain antarmuka yang intuitif dan pengalaman pengguna (UX) yang optimal.\r\nPada desain ini merupakan desain awal sebelum dilakukan modifikasi, saat ini untuk desain diatas telah mengalami perubahan",
+        "img": "img\/img_68518dc9f2d28.png",
+        "client": "Jawara",
+        "link": "https:\/\/aksanazachri.my.id\/Detail-Portofolio?id=5"
+    },
+    {
+        "id": 2,
+        "title": "Food Delivery Apps",
+        "date": "2024-11",
+        "type": [
+            "UI DESIGN",
+            "Mobile Apps"
+        ],
+        "description": "",
+        "img": "img\/1750181516_jajanin dong (3).png",
+        "client": "Jajanin ",
+        "link": ""
+    },
+    {
+        "id": 3,
+        "title": "Home Furnishing Retail",
+        "date": "2024-11",
+        "type": [
+            "UI DESIGN",
+            "Mobile Apps"
+        ],
+        "description": "",
+        "img": "img\/1750181661_Furnirture.png",
+        "client": "Need",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "title": "Home Furnishing Retail",
+        "date": "2023-11",
+        "type": [
+            "UI DESIGN",
+            "Landing Page"
+        ],
+        "description": "",
+        "img": "img\/1750181758_Furnirture web.png",
+        "client": "Need",
+        "link": ""
+    },
+    {
+        "id": 5,
+        "title": "Redesign Mobile Banking Apps",
+        "date": "2024-12",
+        "type": [
+            "UI DESIGN",
+            "Mobile Apps"
+        ],
+        "description": "Bank Jawara adalah platform perbankan digital modern yang dirancang untuk memberikan layanan perbankan yang mudah, aman, dan cepat. Dengan fokus utama pada inklusi finansial, Bank Jawara hadir untuk melayani berbagai lapisan masyarakat dengan desain antarmuka yang intuitif dan pengalaman pengguna (UX) yang optimal\r\nTujuan desain pada bank Jawara yaitu memberikan layanan perbankan yang tidak hanya fungsional tetapi juga memikat dan nyaman digunakan, sehingga Bank Jawara menjadi pilihan utama masyarakat dalam memenuhi kebutuhan finansial mereka. Dengan menggunakan unsur warna Ungu dan Orange memberikan kesan keanggunan, kebijaksanaan, semangat, dan juga optimisme dalam dunia perbankan.\r\nRedesign ini merupakan hasil riset dan pengembangan desain awal yang diperuntukkan sebagai bahan dalam ajang perlombaan UI\/UX Design dan memperoleh juara 2",
+        "img": "img\/1750181980_jawara dong (2).png",
+        "client": "Jawara",
+        "link": "https:\/\/aksanazachri.my.id\/dokumen\/jawara.pdf"
+    },
+    {
+        "id": 6,
+        "title": "Carbon Emission Control Application",
+        "date": "2023-11",
+        "type": [
+            "UI DESIGN",
+            "Mobile Apps"
+        ],
+        "img": "img\/1750230232_zero2.png",
+        "link": "",
+        "client": "Zero",
+        "description": ""
+    }
+]

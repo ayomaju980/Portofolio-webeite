@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oops!</title>
+    <link rel="icon" href="img/Logoo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+p {
+  margin: 10px 0 20px;
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0c2d5d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #093368;
+}
+.footer {
+  margin-top: auto;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #999;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img src="img/404.png" alt="404 Illustration" class="image">
+    <h1>Page Not Found</h1>
+    <p>Sorry, this website is temporarily inaccessible.</p>
+    <a href="/Home" class="button">Back Home</a>
+  </div>
+</body>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</html>

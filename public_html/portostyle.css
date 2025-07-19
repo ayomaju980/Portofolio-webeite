@@ -1,0 +1,356 @@
+:root {
+    --mainColor: #00142E;
+    --secondaryColor: #32012F;
+    --acsentColor: #DD7900;
+}
+
+/* === General === */
+body {
+    background-color: inherit;
+    min-height: 900px;
+    font-family: 'Plus Jakarta Sans', Roboto, sans-serif;
+    padding-top: 80px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.light {
+    background: #ffffff;
+    color: #000000;
+}
+
+body.dark {
+    background: #121212;
+    color: #ffffff;
+}
+
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+/* === Navbar === */
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.nav-link {
+    color: currentColor !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--acsentColor) !important;
+    text-decoration: underline;
+}
+
+.nav-dark {
+    background-color: var(--mainColor) !important;
+    z-index: 10;
+    color: #fff !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-nav {
+    justify-content: center;
+}
+
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* === Theme Dropdown === */
+.dropdown {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    z-index: 1001;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.dropdown-toggle svg {
+    width: 28px;
+    height: 28px;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    min-width: 100px;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu button {
+    padding: 8px 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.dropdown-menu button:hover {
+    background: #f0f0f0;
+}
+
+.dropdown.open .dropdown-menu {
+    display: flex;
+}
+
+body.dark .dropdown-menu {
+    background: #222;
+    border-color: #444;
+}
+
+body.dark .dropdown-menu button {
+    color: #fff;
+}
+
+body.dark .dropdown-menu button:hover {
+    background: #333;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+}
+
+.social-icon {
+    color: inherit !important;
+}
+
+/* === Headline Section === */
+#headline {
+    padding: 100px 20px;
+    background-color: #32012F; /* flat color, tidak melengkung */
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+#headline h1 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#headline p {
+    color: #ffffff;
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    opacity: 0.9;
+}
+
+#headline hr {
+    width: 60px;
+    height: 3px;
+    border: none;
+    background-color: #ffffff;
+    margin: 20px auto;
+}
+
+#headline .container {
+    padding: 0;
+}
+
+/* === Section General === */
+section {
+    margin-top: 0;
+    background-color: #f0f0f0;
+    padding: 80px 80px 100px;
+    border-radius: 0;
+    transition: background 0.3s ease;
+}
+
+body.dark section {
+    background-color: #1e1e1e;
+    border-radius: 0;
+}
+
+/* === Project Card === */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body h5 {
+    color: #333;
+}
+
+.badge {
+    background-color: #FAAD1B;
+    color: #000;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FAAD1B;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .project img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #headline {
+        padding: 80px 20px;
+    }
+
+    #headline h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+
+    #headline p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    #headline hr {
+        width: 40px;
+    }
+}
+
+/* === Running Marquee Footer === */
+.footer {
+    background-color: #FAAD1B;
+    overflow: hidden;
+    padding: 10px 0;
+    white-space: nowrap;
+}
+
+.marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+    width: fit-content;
+}
+
+.footer ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    display: inline-block;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.separator {
+    font-size: 20px;
+    color: black;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* === Footer === */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #333;
+    border-top: 2px solid #821131;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.social-icon-footer {
+    margin-top: 10px;
+}
+
+.social-icon-footer a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover {
+    transform: scale(1.2);
+}
+
+.social-icon-footer svg {
+    fill: #821131;
+    transition: fill 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover svg {
+    fill: #d23a50;
+}

@@ -1,0 +1,34 @@
+RewriteEngine On
+
+AddHandler application/x-httpd-php .html .htm
+
+
+# Redirect "Home" to index.html
+RewriteRule ^Home$ index.html [L]
+
+# Redirect "Detail-Portofolio" to detail.php
+RewriteRule ^Detail-Portofolio$ detail.php [L]
+
+# Redirect "Portofolio" to portofolio.php
+RewriteRule ^Portofolio$ portofolio.php [L]
+
+# Redirect "Perbaikan" to perbaikan.html
+RewriteRule ^Perbaikan$ perbaikan.html [L]
+
+# Redirect "Curiculum-Vitae" to cv.html
+RewriteRule ^Curiculum-Vitae$ cv.html [L]
+
+# Redirect "MobileApps" to des1.html
+RewriteRule ^MobileApps$ des1.html [L]
+
+# Redirect "Landing-Page" to des2.html
+RewriteRule ^Landing-Page$ des2.html [L]
+
+# Redirect "Contact" to kontak.html
+RewriteRule ^Contact$ kontak.html [L]
+
+# Optional: Redirect root to "Home"
+RewriteRule ^$ index.html [L]
+
+# Redirect "Jawara-mobileapp" to des6.html
+RewriteRule ^Jawara-mobileapp$ des6.html [L]

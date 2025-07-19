@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oops! Under Maintenance</title>
+    <link rel="icon" href="img/Logoo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+    color: #1a1a1a;
+    }
+    
+    .maintenance-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    min-height: 100vh;
+    gap: 40px;
+    background-color: #ffffff;
+    }
+    
+    .text-box {
+    flex: 1;
+    max-width: 500px;
+    }
+    
+    .text-box h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    line-height: 1.4;
+    }
+    
+    .text-box h1 span {
+    color: #4a00e0;
+    }
+    
+    .text-box p {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    }
+    
+    .text-box footer {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #888;
+    }
+    
+    .image-box {
+    flex: 1;
+    max-width: 500px;
+    }
+    
+    .image-box img {
+    width: 100%;
+    height: auto;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="maintenance-container">
+        <div class="text-box">
+            <h1>Website is <br><span>Under Repair</span> and Maintenance</h1>
+            <p>
+                Sorry, for the sake of convenience and an attractive appearance, this website is currently undergoing
+                temporary maintenance and repair
+            </p>
+            <footer>&copy; <span id="year"></span> Maintenance by AYOMAJU. All rights reserved.</footer>
+        </div>
+        <div class="image-box">
+            <img src="img/maint 1.png" alt="Under Maintenance Illustration"/>
+        </div>
+    </section>
+    <!--end footer-->
+</body>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</html>

@@ -1,0 +1,479 @@
+:root {
+    --mainColor: #00142E;
+    --secondaryColor: #32012F;
+    --acsentColor: #DD7900;
+}
+
+/* === General === */
+body {
+    background-color: inherit;
+    min-height: 900px;
+    font-family: 'jakartasans', roboto;
+}
+
+body.light {
+    background: #ffffff;
+    color: #000000;
+}
+
+body.dark {
+    background: #121212;
+    color: #ffffff;
+}
+
+
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+/* === Navbar === */
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+    transition: 0.8s;
+}
+
+.nav-link {
+    color: currentColor !important;
+}
+
+.nav-dark {
+    background-color: var(--mainColor) !important;
+    z-index: 10;
+    color: #fff !important;
+}
+
+#nav {
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-nav {
+    justify-content: center;
+}
+
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.dropdown {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dropdown-toggle svg {
+    width: 32px;
+    height: 32px;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    min-width: 100px;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+}
+
+.dropdown-menu button {
+    padding: 8px 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.dropdown-menu button:hover {
+    background: #f0f0f0;
+}
+
+.dropdown.open .dropdown-menu {
+    display: flex;
+}
+
+body.dark .dropdown-menu {
+    background: #222;
+    border-color: #444;
+}
+
+body.dark .dropdown-menu button {
+    color: #fff;
+}
+
+body.dark .dropdown-menu button:hover {
+    background: #333;
+}
+
+.social-icon {
+    color: inherit !important;
+}
+
+/* end Navbar */
+
+/*judul*/
+#judul h1,
+#judul2 h1,
+#judul3 h1,
+#judul4 h1,
+#judul5 h1,
+#judul6 h1 {
+    padding-top: 180px;
+    font-size: 70px;
+    color: currentColor;
+}
+
+#judul p,
+#judul2 p,
+#judul3 p,
+#judul4 p,
+#judul5 p,
+#judul6 p {
+    padding-top: 10px;
+    font-size: 20px;
+    color: currentColor;
+}
+
+/*end judul*/
+
+/* General Section Styles */
+.section-porto img,
+.section-porto2 img,
+.section-porto3 img,
+.section-porto4 img,
+.section-porto5 img,
+.section-porto6 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 60%;
+    color: #000;
+}
+
+
+/* Descriptions */
+#des1,
+#des2,
+#des3,
+#des4,
+#des5,
+#des6 {
+    margin-top: -180px;
+    color: currentColor;
+    padding: 150px 150px 180px;
+}
+
+#des1 h1,
+#des2 h1,
+#des3 h1,
+#des4 h1,
+#des5 h1,
+#des6 h1 {
+    font-size: 300;
+}
+
+#des1 p,
+#des1 a,
+#des2 p,
+#des2 a,
+#des3 p,
+#des3 a,
+#des4 p,
+#des4 a,
+#des5 p,
+#des5 a,
+#des6 p,
+#des6 a {
+    font-size: 1.1rem;
+}
+
+/*des colo*/
+#color,
+#color2 {
+    margin-top: -180px;
+    color: currentColor;
+    padding: 150px 150px 180px;
+}
+
+#color h1,
+#color2 h1 {
+    font-size: 300;
+}
+
+#color h2 {
+    font-size: 40px;
+    padding-top: 30px;
+    color: #630dae;
+}
+
+#color2 h2 {
+    font-size: 40px;
+    padding-top: 30px;
+    color: #dd7900;
+}
+
+#color h3,
+#color2 h3 {
+    font-size: 18px;
+}
+
+#color p,
+#color2 p {
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
+
+#color img,
+#color2 img {
+    width: 35%;
+    max-width: 400px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+/*end*/
+
+/*typo*/
+#typo {
+    margin-top: -180px;
+    color: currentColor;
+    padding: 150px 150px 180px;
+}
+
+#typo h1 {
+    font-size: 300;
+}
+
+#typo h2 {
+    font-size: 40px;
+    padding-top: 30px;
+    color: #630dae;
+}
+
+#typo p {
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
+
+#typo img {
+    width: 100%;
+    /* Perbesar ukuran default */
+    max-width: 150px;
+    /* Maksimum ukuran agar tidak terlalu besar */
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+/*end*/
+/*footer*/
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #333;
+    border-top: 2px solid #821131;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.social-icon-footer {
+    margin-top: 10px;
+}
+
+.social-icon-footer a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover {
+    transform: scale(1.2);
+}
+
+.social-icon-footer svg {
+    fill: #821131;
+    transition: fill 0.3s ease-in-out;
+}
+
+.social-icon-footer a:hover svg {
+    fill: #d23a50;
+}
+
+/*end*/
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+
+    #judul h1,
+    #judul2 h1,
+    #judul3 h1,
+    #judul4 h1,
+    #judul5 h1,
+    #judul6 h1 {
+        font-size: 50px;
+        padding-top: 150px;
+    }
+
+    #judul p,
+    #judul2 p,
+    #judul3 p,
+    #judul4 p,
+    #judul5 p,
+    #judul6 p {
+        font-size: 18px;
+    }
+
+    .section-porto img,
+    .section-porto2 img,
+    .section-porto3 img,
+    .section-porto4 img,
+    .section-porto5 img,
+    .section-porto6 img {
+        width: 80%;
+        padding: 30px;
+    }
+
+    #des1,
+    #des2,
+    #des3,
+    #des4,
+    #des5,
+    #des6 {
+        padding: 100px 50px 120px;
+    }
+
+    #des1 h1,
+    #des2 h1,
+    #des3 h1,
+    #des4 h1,
+    #des5 h1,
+    #des6 h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #judul h1,
+    #judul2 h1,
+    #judul3 h1,
+    #judul4 h1,
+    #judul5 h1,
+    #judul6 h1 {
+        font-size: 40px;
+        padding-top: 120px;
+    }
+
+    #judul p,
+    #judul2 p,
+    #judul3 p,
+    #judul4 p,
+    #judul5 p,
+    #judul6 p {
+        font-size: 16px;
+    }
+
+    .section-porto img,
+    .section-porto2 img,
+    .section-porto3 img,
+    .section-porto4 img,
+    .section-porto5 img,
+    .section-porto6 img {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #des1,
+    #des2,
+    #des3,
+    #des4,
+    #des5,
+    #des6 {
+        padding: 80px 30px 100px;
+    }
+
+    #des1 h1,
+    #des2 h1,
+    #des3 h1,
+    #des4 h1,
+    #des5 h1,
+    #des6 h1 {
+        font-size: 1.8rem;
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #judul h1,
+    #judul2 h1,
+    #judul3 h1,
+    #judul4 h1,
+    #judul5 h1,
+    #judul6 h1 {
+        font-size: 30px;
+        padding-top: 100px;
+    }
+
+    #judul p,
+    #judul2 p,
+    #judul3 p,
+    #judul4 p,
+    #judul5 p,
+    #judul6 p {
+        font-size: 14px;
+    }
+
+    .section-porto img,
+    .section-porto2 img,
+    .section-porto3 img,
+    .section-porto4 img,
+    .section-porto5 img,
+    .section-porto6 img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #des1,
+    #des2,
+    #des3,
+    #des4,
+    #des5,
+    #des6 {
+        padding: 50px 20px 80px;
+    }
+
+    #des1 h1,
+    #des2 h1,
+    #des3 h1,
+    #des4 h1,
+    #des5 h1,
+    #des6 h1 {
+        font-size: 1.5rem;
+    }
+}
