@@ -1,0 +1,36 @@
+RewriteEngine On
+
+DirectoryIndex index.php
+
+# Redirect "Dashboard" to dashboard.php
+RewriteRule ^Dashboard$ dashboard.php [L]
+
+# Redirect "Remote" to admin-footer.php
+RewriteRule ^Remote$ admin-footer.php [L]
+
+# Redirect "List-Portofolio" to admin.php
+RewriteRule ^List-Portofolio$ admin.php [L]
+
+# Redirect "Login" to login.php
+RewriteRule ^Login$ login.php [L]
+
+# Redirect "Add-Portofolio" to admin-add.php
+RewriteRule ^Add-Portofolio$ admin-add.php [L]
+
+# Redirect "Edit-Portofolio" to admin-edit.php
+RewriteRule ^Edit-Portofolio$ admin-edit.php [L]
+
+# Redirect "Ganti-Password" to change-password.php
+RewriteRule ^Ganti-Password$ change-password.php [L]
+
+# Redirect "Landing-Page" to des2.html
+RewriteRule ^Landing-Page$ des2.html [L]
+
+# Redirect "Contact" to kontak.html
+RewriteRule ^Contact$ kontak.html [L]
+
+# Optional: Redirect root to "Home"
+RewriteRule ^$ index.html [L]
+
+# Redirect "Jawara-mobileapp" to des6.html
+RewriteRule ^Jawara-mobileapp$ des6.html [L]
