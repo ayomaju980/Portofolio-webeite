@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name    = htmlspecialchars($_POST['name']);
     $email   = htmlspecialchars($_POST['email']);
-    $subject = htmlspecialchars($_POST['subject']); // Subject dari form
+    $subject = htmlspecialchars($_POST['subject']);
     $message = htmlspecialchars($_POST['message']);
 
     $to = "hi@aksanazachri.my.id";
@@ -43,20 +43,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Kirim email dengan lampiran
         if (mail($to, $subject, $body, $headers)) {
-            echo "<script>alert('Email berhasil dikirim dengan lampiran!'); window.location.href='index.html';</script>";
+            header("Location: /Contact?success=true");
+            exit;
         } else {
-            echo "<script>alert('Gagal mengirim email.'); window.location.href='index.html';</script>";
+            header("Location: /Contact?success=false");
+            exit;
         }
     } else {
-        // Jika tidak ada file, kirim email biasa
+        // Kirim email tanpa lampiran
         $headers  = "From: $email\r\n";
         $headers .= "Reply-To: $email\r\n";
         $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
         if (mail($to, $subject, $text, $headers)) {
-            echo "<script>alert('Email berhasil dikirim!'); window.location.href='index.html';</script>";
+            header("Location: /Contact?success=true");
+            exit;
         } else {
-            echo "<script>alert('Gagal mengirim email.'); window.location.href='index.html';</script>";
+            header("Location: /Contact?success=false");
+            exit;
         }
     }
 } else {

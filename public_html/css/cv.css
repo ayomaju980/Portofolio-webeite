@@ -1,261 +1,399 @@
+/* =========================
+   THEME TOKENS
+   ========================= */
 :root {
-    --mainColor: #00142E;
-    --secondaryColor: #32012F;
-    --acsentColor: #DD7900;
+  --mainColor: #00142E;
+  --secondaryColor: #32012F;
+  --acsentColor: #DD7900;     /* ejaan aslinya dipertahankan */
+  --highlightColor: #FFC107;
+
+  --textLight: #FAFAFA;
+  --textDark: #1A1A1A;
+  --muted: #8A8F98;
+
+  --surface: #FFFFFF;
+  --surfaceAlt: rgba(255, 255, 255, 0.95);
+  --surfaceGlass: rgba(255, 255, 255, 0.15);
+
+  --radius: 12px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  --shadowHover: 0 12px 28px rgba(0, 0, 0, 0.25);
+
+  --gap: 20px;
+}
+
+/* =========================
+   BASE
+   ========================= */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: inherit;
-    min-height: 900px;
-    font-family: 'jakartasans', roboto;
+  background-color: var(--mainColor);
+  color: var(--textLight);
+  min-height: 900px;
+  font-family: 'jakartasans', Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* Light/Dark toggle (opsional kalau kamu pakai class di <body>) */
 body.light {
-    background: #EEEEEE;
-    color: #000;
+  background: #EEEEEE;
+  color: var(--textDark);
 }
 
 body.dark {
-    background: #000;
-    color: #fff;
+  background: #000;
+  color: #fff;
 }
 
-/* Navbar */
-.nav-link.active {
-    color: var(--acsentColor) !important;
-    font-weight: 700;
-    transition: .8s;
+/* Aksesibilitas: fokus yang jelas */
+:where(a, button, .btn-custom1, .nav-link):focus-visible {
+  outline: 2px solid var(--highlightColor);
+  outline-offset: 3px;
+  border-radius: 8px;
 }
 
-.nav-link {
-    color: currentColor !important;
-}
-
-.navbar {
-    background-color: var(--mainColor);
-    color: #ffffff;
-}
-
-.dropdown {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-}
-
-.dropdown-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.dropdown-toggle svg {
-    width: 32px;
-    height: 32px;
-}
-
-.dropdown-menu {
-    display: none;
-    flex-direction: column;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    margin-top: 5px;
-    min-width: 100px;
-    position: absolute;
-    right: 0;
-    z-index: 1000;
-}
-
-.icon {
-    width: 24px;
-    height: 24px;
-    stroke: currentColor;
-}
-
-.dropdown-menu button {
-    padding: 8px 12px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    text-align: left;
+/* === Navbar Glass Style (Improved) === */
+#nav {
     width: 100%;
+    z-index: 1030;
 }
 
-.dropdown-menu button:hover {
-    background: #f0f0f0;
-}
+.nav-dark {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: var(--shadow);
+    padding: 10px 28px;
+    border-radius: 50px;
 
-.dropdown.open .dropdown-menu {
+    /* ini kuncinya biar nggak kelebaran */
+    width: auto;
+    max-width: 600px; /* atur sesuai kebutuhan */
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    transition: all 0.3s ease-in-out;
 }
 
-body.dark .dropdown-menu {
-    background: #222;
-    border-color: #444;
+
+/* Hover efek lembut */
+.nav-dark:hover {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: var(--shadowHover);
 }
 
-body.dark .dropdown-menu button {
-    color: #fff;
+/* Menu link */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-body.dark .dropdown-menu button:hover {
-    background: #333;
+.navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000 !important;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease, transform 0.2s ease;
 }
 
-/* Resume */
+.navbar-nav .nav-link:hover {
+    color: #FFC107 !important;
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFC107 !important;
+    border-bottom: 2px solid var(--acsentColor);
+    padding-bottom: 2px;
+}
+
+/* Responsive: ubah padding & gap di HP */
+@media (max-width: 768px) {
+    .nav-dark {
+        top: 12px;
+        padding: 8px 16px;
+        gap: 16px;
+        border-radius: 40px;
+    }
+    .navbar-nav {
+        gap: 12px;
+    }
+}
+
+
+
+/* =========================
+   RESUME CARD
+   ========================= */
 .resume {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding-bottom: 60px; /* tambahkan padding bawah */
+  max-width: 800px;
+  margin: 100px auto 40px; /* kasih ruang atas krn navbar fixed */
+  padding: 30px 30px 60px;
+  background: var(--surfaceAlt);
+  color: var(--textDark);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-header {
-    text-align: center;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+.resume:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadowHover);
 }
 
-header h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #222;
+/* Header di dalam resume aja biar ga nabrak global */
+.resume header {
+  text-align: center;
+  border-bottom: 2px solid #E8E8E8;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
 }
 
-header p {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #555;
+.resume header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--mainColor);
+  letter-spacing: 0.3px;
 }
 
-header a {
-    color: #0073e6;
-    text-decoration: none;
+.resume header p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
 }
 
-header a:hover {
-    text-decoration: underline;
+.resume header a {
+  color: var(--acsentColor);
+  text-decoration: none;
+  transition: color 0.25s ease;
 }
 
-section {
-    margin-bottom: 20px;
+.resume header a:hover {
+  color: var(--highlightColor);
+  text-decoration: underline;
 }
 
-section h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #0073e6;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
+.resume section {
+  margin-bottom: 22px;
 }
 
-section p {
-    color: #000;
+.resume section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--acsentColor);
+  border-bottom: 2px solid var(--acsentColor);
+  padding-bottom: 6px;
+  letter-spacing: 0.2px;
+}
+
+.resume section p {
+  color: #222;
+  margin: 8px 0;
 }
 
 .job,
 .education-entry,
 .organization {
-    margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .job h3,
 .education-entry h3,
 .organization h3 {
-    margin: 0;
-    font-size: 16px;
-    color: #444;
+  margin: 0 0 4px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
 }
 
 .job p,
 .education-entry p,
 .organization p {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #555;
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
 }
 
-ul {
-    margin: 0;
-    padding-left: 20px;
-    list-style: disc;
+.resume ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
 }
 
-ul li {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #333;
+.resume ul li {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
 }
 
 .skills p {
-    margin: 5px 0;
-    font-size: 14px;
+  margin: 6px 0;
+  font-size: 14px;
 }
 
 .skills strong {
-    color: #0073e6;
+  color: var(--acsentColor);
 }
 
+/* =========================
+   CTA BUTTON
+   ========================= */
 .btn-custom1 {
-    background-color: transparent;
-    color: var(--acsentColor);
-    border: 2px solid var(--acsentColor);
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: all 0.3s;
-    margin-bottom: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background-color: var(--acsentColor);
+  color: #fff;
+  border: none;
+  font-weight: 800;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-size: 1.05rem;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.2s ease;
+  white-space: nowrap;
+  box-shadow: 0 6px 18px rgba(221, 121, 0, 0.25);
 }
 
 .btn-custom1:hover {
-    background-color: var(--acsentColor);
-    color: #fff;
+  background-color: var(--highlightColor);
+  color: var(--mainColor);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(255, 193, 7, 0.35);
 }
 
-
-
-
-
-/* Footer */
-footer {
-    background-color: #f8f9fa;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 15px;
-    color: #333;
-    border-top: 2px solid #821131;
+.btn-custom1:active {
+  transform: translateY(0);
 }
 
-footer p {
-    margin: 0;
-    font-weight: bold;
+/* Wrapper tombol */
+.collab-button {
+  padding-bottom: 60px;
+  text-align: center;
 }
 
-.social-icon-footer {
-    margin-top: 10px;
+/* =========================
+   FOOTER
+   ========================= */
+.footer-custom {
+  background: linear-gradient(135deg, var(--mainColor), var(--secondaryColor));
+  color: var(--textLight);
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  border-top: 1px solid #444;
 }
 
-.social-icon-footer a {
-    display: inline-block;
-    margin: 0 10px;
-    transition: transform 0.3s ease-in-out;
+.footer-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--highlightColor);
 }
 
-.social-icon-footer a:hover {
-    transform: scale(1.2);
+.footer-desc {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #DDDDDD;
+  margin: 0;
 }
 
-.social-icon-footer svg {
-    fill: #821131;
-    transition: fill 0.3s ease-in-out;
+.no-link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: normal;
 }
 
-.social-icon-footer a:hover svg {
-    fill: #d23a50;
+.footer-col.about { text-align: left; }
+
+.footer-col.centered { text-align: center; }
+
+.footer-contact {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #CCCCCC;
+}
+
+.social-icons {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease-in-out, background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+  border: 1px solid var(--highlightColor);
+  color: var(--highlightColor);
+  margin: 0 6px;
+}
+
+.social-icons a:hover {
+  background-color: var(--highlightColor);
+  color: var(--mainColor);
+  transform: scale(1.08);
+}
+
+.footer-custom .border-top {
+  border-color: #555 !important;
+}
+
+/* =========================
+   UTILITIES & RESPONSIVE
+   ========================= */
+.container {
+  width: min(1120px, 92vw);
+  margin-inline: auto;
+}
+
+.hidden { display: none !important; }
+
+@media (max-width: 768px) {
+  .nav-dark {
+    top: 16px;
+    padding: 8px 18px;
+  }
+
+  .navbar-nav {
+    gap: 14px;
+  }
+
+  .resume {
+    margin: 88px 16px 32px;
+    padding: 24px 20px 44px;
+  }
+
+  .resume header h1 { font-size: 24px; }
+  .resume section h2 { font-size: 18px; }
+}
+
+/* Sedikit reduksi motion buat user yang sensitif terhadap animasi */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
 }
