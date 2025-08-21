@@ -1,0 +1,890 @@
+[
+    {
+        "user": "Aksana Zachri Satria",
+        "role": "admin",
+        "action": "Menambahkan portofolio: tes upload",
+        "time": "2025-07-20 13:42:24"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "role": "admin",
+        "action": "Menambahkan portofolio: tes lagi lagi",
+        "time": "2025-07-20 13:44:51"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "role": "admin",
+        "action": "Menambahkan portofolio: tes",
+        "time": "2025-07-20 13:48:26"
+    },
+    {
+        "timestamp": "2025-07-20 14:04:00",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: Ujicoba"
+    },
+    {
+        "timestamp": "2025-07-20 14:16:32",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: tes 2"
+    },
+    {
+        "timestamp": "2025-07-20 14:17:24",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Ujicoba ya"
+    },
+    {
+        "timestamp": "2025-07-20 14:18:23",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: tes dulu"
+    },
+    {
+        "timestamp": "2025-07-20 14:23:02",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: tes 5"
+    },
+    {
+        "timestamp": "2025-07-20 14:24:23",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: tes 56"
+    },
+    {
+        "timestamp": "2025-07-20 14:26:45",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: tes"
+    },
+    {
+        "timestamp": "2025-07-20 14:34:32",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: tes dulu nih"
+    },
+    {
+        "timestamp": "2025-07-20 14:35:06",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: tes dulu nih ya"
+    },
+    {
+        "timestamp": "2025-07-20 14:35:44",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: Cek Upload"
+    },
+    {
+        "timestamp": "2025-07-20 14:51:20",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan sertifikat: tes"
+    },
+    {
+        "timestamp": "2025-07-20 14:53:49",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan sertifikat: tes"
+    },
+    {
+        "timestamp": "2025-07-20 14:57:04",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan sertifikat: "
+    },
+    {
+        "timestamp": "2025-07-20 14:57:52",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit sertifikat: "
+    },
+    {
+        "timestamp": "2025-07-20 14:58:10",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: tes dulu nih yag"
+    },
+    {
+        "timestamp": "2025-07-20 15:00:11",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit sertifikat: tes duluuh"
+    },
+    {
+        "timestamp": "2025-07-20 15:00:53",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Cek Upload nih"
+    },
+    {
+        "timestamp": "2025-07-20 15:03:54",
+        "user": "aksanazachri",
+        "action": "Login gagal"
+    },
+    {
+        "timestamp": "2025-07-20 15:04:01",
+        "user": "aksanazachri",
+        "action": "Login gagal"
+    },
+    {
+        "timestamp": "2025-07-20 15:04:45",
+        "user": "aksanazachri",
+        "action": "Login berhasil"
+    },
+    {
+        "timestamp": "2025-07-20 15:04:50",
+        "user": "aksanazachri",
+        "action": "Login berhasil"
+    },
+    {
+        "timestamp": "2025-07-20 15:05:02",
+        "user": "aksanazachri",
+        "action": "Login berhasil"
+    },
+    {
+        "timestamp": "2025-07-20 15:06:36",
+        "user": "aksanazachri",
+        "action": "Login berhasil"
+    },
+    {
+        "timestamp": "2025-07-20 15:06:40",
+        "user": "aksanazachri",
+        "action": "Login berhasil"
+    },
+    {
+        "timestamp": "2025-07-20 15:07:56",
+        "user": "aksanazachri",
+        "action": "Login berhasil"
+    },
+    {
+        "user": "aksanazachri",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 15:11:11"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 15:12:09"
+    },
+    {
+        "timestamp": "2025-07-20 15:17:34",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Cek Upload"
+    },
+    {
+        "timestamp": "2025-07-20 15:28:23",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit sertifikat: Sertifikasi Kompetensi System Analyst "
+    },
+    {
+        "timestamp": "2025-07-20 15:29:21",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit sertifikat: Sertifikasi Kompetensi System Analyst "
+    },
+    {
+        "timestamp": "2025-07-20 15:30:12",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit sertifikat: Sertifikasi Microsoft Office Certification"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 15:53:09"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 15:53:39"
+    },
+    {
+        "timestamp": "2025-07-20 15:54:20",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan sertifikat: UJI COBA"
+    },
+    {
+        "timestamp": "2025-07-20 15:55:18",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit sertifikat: Uji Coba"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 15:58:51"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 16:36:23"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 17:05:14"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 17:54:52"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 17:55:03"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 17:56:57"
+    },
+    {
+        "timestamp": "2025-07-20 18:02:31",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: Portofolio Website"
+    },
+    {
+        "timestamp": "2025-07-20 18:15:29",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Portofolio Website"
+    },
+    {
+        "timestamp": "2025-07-20 18:28:27",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Landing Page Website Dimsumku"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 19:20:41"
+    },
+    {
+        "timestamp": "2025-07-20 19:21:08",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Redesign Mobile Banking Apps"
+    },
+    {
+        "timestamp": "2025-07-20 19:21:54",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Mobile Banking Apps"
+    },
+    {
+        "timestamp": "2025-07-20 19:22:41",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Home Furnishing Retail"
+    },
+    {
+        "timestamp": "2025-07-20 19:23:20",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Carbon Emission Control Application"
+    },
+    {
+        "timestamp": "2025-07-20 19:24:13",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Food Delivery Apps"
+    },
+    {
+        "timestamp": "2025-07-20 19:24:44",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Home Furnishing Retail"
+    },
+    {
+        "timestamp": "2025-07-20 19:33:46",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-20 21:44:08"
+    },
+    {
+        "timestamp": "2025-07-20 21:44:34",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Redesign Mobile Banking Apps"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 10:55:11"
+    },
+    {
+        "user": "Administrator",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 11:01:21"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 11:07:26"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 12:22:15"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 12:23:51"
+    },
+    {
+        "timestamp": "2025-07-21 12:37:51",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: tes"
+    },
+    {
+        "timestamp": "2025-07-21 12:40:09",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: tes"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 17:07:26"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 17:15:07"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 18:03:28"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 18:05:54"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 18:39:09"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 18:52:04"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 18:52:26"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 19:04:47"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 19:08:16"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 19:11:35"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 19:13:43"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 19:21:07"
+    },
+    {
+        "timestamp": "2025-07-21 19:46:19",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: tes"
+    },
+    {
+        "timestamp": "2025-07-21 19:49:40",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: Tes Upload"
+    },
+    {
+        "timestamp": "2025-07-21 19:51:01",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: Tes Upload"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 20:20:31"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-21 21:27:33"
+    },
+    {
+        "timestamp": "2025-07-21 21:30:28",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Food Delivery Apps"
+    },
+    {
+        "timestamp": "2025-07-21 21:37:23",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Food Delivery Apps"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-23 21:31:32"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-24 21:04:07"
+    },
+    {
+        "timestamp": "2025-07-24 21:04:34",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Landing Page Website Dimsumku"
+    },
+    {
+        "timestamp": "2025-07-24 21:05:14",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    },
+    {
+        "timestamp": "2025-07-24 21:05:37",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Portofolio Website"
+    },
+    {
+        "timestamp": "2025-07-24 21:06:05",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Redesign Mobile Banking Apps"
+    },
+    {
+        "timestamp": "2025-07-24 21:06:29",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Mobile Banking Apps"
+    },
+    {
+        "timestamp": "2025-07-24 21:07:09",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Home Furnishing Retail"
+    },
+    {
+        "timestamp": "2025-07-24 21:07:38",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Carbon Emission Control Application"
+    },
+    {
+        "timestamp": "2025-07-24 21:08:03",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Food Delivery Apps"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-24 21:36:53"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-24 22:16:23"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-24 23:17:57"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-25 22:40:56"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-26 21:28:08"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-26 23:35:52"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-27 18:35:14"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-27 20:12:14"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-27 22:20:23"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-28 14:45:21"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-28 15:51:16"
+    },
+    {
+        "timestamp": "2025-07-28 16:06:45",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: TES"
+    },
+    {
+        "timestamp": "2025-07-28 16:10:47",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Redesign Mobile Banking Apps"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-28 17:19:19"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-28 17:19:28"
+    },
+    {
+        "timestamp": "2025-07-28 17:20:05",
+        "user": "Aksana Zachri Satria",
+        "action": "Menambahkan portofolio: Tes Judul Baru"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-28 20:21:15"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-28 20:32:09"
+    },
+    {
+        "timestamp": "2025-07-28 20:33:15",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-28 22:34:55"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-29 16:25:26"
+    },
+    {
+        "timestamp": "2025-07-29 16:27:15",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-29 17:25:36"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-07-29 22:00:07"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-01 23:26:36"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-04 16:19:20"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-04 22:51:38"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-05 16:40:28"
+    },
+    {
+        "timestamp": "2025-08-05 16:40:56",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-05 18:47:33"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-10 22:49:59"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-13 16:39:34"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-13 22:19:25"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-13 22:19:28"
+    },
+    {
+        "timestamp": "2025-08-13 22:19:57",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Portofolio Website"
+    },
+    {
+        "timestamp": "2025-08-13 22:24:50",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Portofolio Website"
+    },
+    {
+        "timestamp": "2025-08-13 22:26:22",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Portofolio Website"
+    },
+    {
+        "timestamp": "2025-08-13 22:28:33",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Portofolio Website"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-14 05:45:46"
+    },
+    {
+        "timestamp": "2025-08-14 05:47:24",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Portofolio Website"
+    },
+    {
+        "timestamp": "2025-08-14 05:48:26",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Landing Page Website Dimsumku"
+    },
+    {
+        "timestamp": "2025-08-14 05:49:00",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    },
+    {
+        "timestamp": "2025-08-14 05:49:53",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Redesign Mobile Banking Apps"
+    },
+    {
+        "timestamp": "2025-08-14 05:50:24",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Mobile Banking Apps"
+    },
+    {
+        "timestamp": "2025-08-14 05:51:15",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Home Furnishing Retail"
+    },
+    {
+        "timestamp": "2025-08-14 05:51:48",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Carbon Emission Control Application"
+    },
+    {
+        "timestamp": "2025-08-14 05:52:15",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Food Delivery Apps"
+    },
+    {
+        "timestamp": "2025-08-14 05:52:38",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Home Furnishing Retail"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-14 17:10:09"
+    },
+    {
+        "timestamp": "2025-08-14 17:10:57",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    },
+    {
+        "timestamp": "2025-08-14 17:12:05",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Redesign Mobile Banking Apps"
+    },
+    {
+        "timestamp": "2025-08-14 17:13:51",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Landing Page Website Dimsumku"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-14 19:51:57"
+    },
+    {
+        "timestamp": "2025-08-14 19:52:36",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Mobile Banking Apps"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-16 15:09:10"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-17 23:57:19"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-18 20:41:39"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-19 14:14:51"
+    },
+    {
+        "timestamp": "2025-08-19 14:15:16",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    },
+    {
+        "timestamp": "2025-08-19 14:16:48",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Carbon Emission Control Application"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 01:32:03"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 01:32:17"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 01:37:31"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 01:47:13"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 01:51:12"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 15:10:30"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 17:32:25"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 17:36:23"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 17:38:19"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 18:30:58"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 19:37:43"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 23:35:47"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 23:54:48"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-20 23:59:54"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 00:22:18"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 00:32:33"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 12:47:13"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 14:31:36"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 15:44:23"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 15:45:33"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 15:52:28"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 16:24:28"
+    },
+    {
+        "user": "Aksana Zachri Satria",
+        "action": "Login ke sistem",
+        "timestamp": "2025-08-21 19:59:21"
+    },
+    {
+        "timestamp": "2025-08-21 20:03:55",
+        "user": "Aksana Zachri Satria",
+        "action": "Mengedit portofolio: Website E-Sport Arena Community"
+    }
+]
