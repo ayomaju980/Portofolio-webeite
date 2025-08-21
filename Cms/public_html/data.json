@@ -7,13 +7,13 @@
             "UI DESIGN",
             "Mobile Apps"
         ],
-        "description": "<p data-start=\"361\" data-end=\"673\"><strong data-start=\"361\" data-end=\"376\">Bank Jawara<\/strong> adalah platform perbankan digital modern yang hadir untuk mendefinisikan ulang pengalaman finansial masyarakat Indonesia. Mengusung kemudahan, keamanan, dan kecepatan sebagai pilar utama, Bank Jawara tidak hanya menjadi alat transaksi&mdash;tetapi juga mitra terpercaya dalam perjalanan finansial Anda.<\/p>\r\n<p data-start=\"675\" data-end=\"1017\">Dengan komitmen pada <strong data-start=\"696\" data-end=\"717\">inklusi finansial<\/strong>, Bank Jawara dirancang agar dapat diakses dan dinikmati oleh semua kalangan, mulai dari generasi muda hingga pelaku usaha, dari kota besar hingga pelosok negeri. Antarmukanya yang intuitif serta pengalaman pengguna (UX) yang optimal memastikan setiap interaksi berjalan mulus, nyaman, dan memuaskan.<\/p>\r\n<p data-start=\"1019\" data-end=\"1427\">Desain visual Bank Jawara memadukan warna <strong data-start=\"1061\" data-end=\"1069\">ungu<\/strong> dan <strong data-start=\"1074\" data-end=\"1084\">oranye<\/strong>, menciptakan kesan <strong data-start=\"1104\" data-end=\"1118\">keanggunan<\/strong>, <strong data-start=\"1120\" data-end=\"1137\">kebijaksanaan<\/strong>, <strong data-start=\"1139\" data-end=\"1151\">semangat<\/strong>, dan <strong data-start=\"1157\" data-end=\"1170\">optimisme<\/strong>&mdash;simbol dari semangat baru dalam dunia perbankan digital. Tak hanya fungsional, tampilan aplikasi Bank Jawara juga dirancang untuk memikat mata dan hati, menjadikannya pilihan utama masyarakat masa kini yang menginginkan lebih dari sekadar layanan keuangan.<\/p>",
-        "img": "img\/img_687a8d4f6ba9d.png",
+        "description": "<p>Bank Jawara is a modern digital banking platform that aims to redefine the financial experience for Indonesians. With convenience, security, and speed as its core pillars, Bank Jawara is not just a transaction tool&mdash;it's also a trusted partner in your financial journey.<\/p>\r\n<p>Committed to financial inclusion, Bank Jawara is designed to be accessible and enjoyable for everyone, from young people to business owners, from big cities to remote areas. Its intuitive interface and optimized user experience (UX) ensure every interaction is seamless, convenient, and satisfying.<\/p>\r\n<p>Bank Jawara's visual design combines purple and orange, creating an impression of elegance, wisdom, passion, and optimism&mdash;symbolizing the new spirit in the world of digital banking. Beyond functionality, the Bank Jawara app's appearance is also designed to appeal to the eye and heart, making it the preferred choice for today's customers who desire more than just financial services.<\/p>",
+        "img": "img\/img_689d16b087ff8.png",
         "client": "Jawara",
         "link": "https:\/\/aksanazachri.my.id\/Detail-Portofolio?id=5",
         "published": true,
-        "updated_at": "2025-07-19 01:07:11",
-        "updated_unix": 1752862031
+        "updated_at": "2025-08-14 19:52:36",
+        "updated_unix": 1755175956
     },
     {
         "id": 2,
@@ -23,13 +23,13 @@
             "UI DESIGN",
             "Mobile Apps"
         ],
-        "description": "<p>The Jajanin app is designed with a friendly and efficient user interface, prioritizing speed in finding and ordering food; this is reflected in the homepage that presents personalized recommendations and easily accessible categories, restaurant pages that display menus with high-quality images and clear customization options, and a transparent and streamlined basket and payment process for a seamless ordering experience from start to finish.<\/p>",
-        "img": "img\/img_687a918dadedc.png",
+        "description": "<p>Filosofi di balik Jajan.in adalah <strong>kesederhanaan dan efisiensi<\/strong>. Kami memahami bahwa saat lapar, pengguna ingin segera menemukan dan memesan makanan tanpa hambatan. Oleh karena itu, desain Jajan.in memprioritaskan:<\/p>\r\n<ul>\r\n<li><strong>Navigasi Intuitif:<\/strong> Pengguna dapat dengan mudah menemukan apa yang mereka cari, mulai dari kategori makanan hingga restoran favorit.<\/li>\r\n<li><strong>Visual yang Menarik:<\/strong> Tampilan yang bersih dan modern dengan penggunaan warna yang menenangkan dan ilustrasi yang menggugah selera.<\/li>\r\n<li><strong>Proses Pemesanan yang Cepat:<\/strong> Meminimalkan langkah-langkah yang diperlukan untuk menyelesaikan pesanan.<\/li>\r\n<li><strong>Personalisasi:<\/strong> Fitur yang membuat pengalaman setiap pengguna terasa unik dan relevan.<\/li>\r\n<\/ul>\r\n<h3>Elemen Utama Desain UI\/UX Jajan.in<\/h3>\r\n<p>Berikut adalah beberapa elemen kunci dalam desain UI\/UX Jajan.in:<\/p>\r\n<p><strong>1. Beranda (Home Screen)<\/strong><\/p>\r\n<ul>\r\n<li><strong>Pencarian Cepat:<\/strong> Kolom pencarian yang menonjol di bagian atas, memungkinkan pengguna langsung mencari restoran atau jenis makanan.<\/li>\r\n<li><strong>Rekomendasi Cerdas:<\/strong> Bagian \"Direkomendasikan Untukmu\" yang menampilkan restoran atau hidangan berdasarkan riwayat pesanan, preferensi, dan lokasi pengguna.<\/li>\r\n<li><strong>Kategori Makanan:<\/strong> Ikon atau daftar visual yang jelas untuk kategori makanan populer (misalnya, Nasi Goreng, Kopi, Aneka Bakso, Minuman Segar) agar pengguna dapat menyaring pilihan dengan cepat.<\/li>\r\n<li><strong>Promosi dan Penawaran:<\/strong> Banner atau kartu promo yang menarik perhatian untuk diskon atau penawaran spesial dari restoran.<\/li>\r\n<li><strong>Restoran Populer\/Terdekat:<\/strong> Daftar gulir horizontal untuk menampilkan restoran-restoran yang sedang tren atau paling dekat dengan lokasi pengguna.<\/li>\r\n<\/ul>\r\n<p>2<strong>. Halaman Restoran (Restaurant Page)<\/strong><\/p>\r\n<ul>\r\n<li><strong>Informasi Jelas:<\/strong> Nama restoran, rating, kisaran harga, waktu pengiriman estimasi, dan biaya pengiriman ditampilkan secara menonjol.<\/li>\r\n<li><strong>Menu Terorganisir:<\/strong> Menu restoran dibagi berdasarkan kategori (misalnya, Makanan Pembuka, Hidangan Utama, Minuman, Dessert) agar mudah dijelajahi.<\/li>\r\n<li><strong>Detail Hidangan:<\/strong> Setiap item menu memiliki gambar berkualitas tinggi, deskripsi singkat, harga, dan opsi kustomisasi (misalnya, tingkat kepedasan, tambahan topping).<\/li>\r\n<li><strong>Ulasan Pengguna:<\/strong> Bagian ulasan dan rating dari pengguna lain untuk membantu keputusan pembelian.<\/li>\r\n<\/ul>\r\n<h4>3. Proses Pemesanan (Checkout Flow)<\/h4>\r\n<ul>\r\n<li><strong>Keranjang Belanja (Cart) yang Jelas:<\/strong> Menampilkan semua item yang dipilih dengan total harga, diskon, dan biaya pengiriman secara transparan.<\/li>\r\n<li><strong>Opsi Pembayaran Mudah:<\/strong> Berbagai pilihan pembayaran (misalnya, e-wallet, transfer bank, kartu kredit) yang terintegrasi dengan mulus.<\/li>\r\n<li><strong>Alamat Pengiriman Akurat:<\/strong> Fitur auto-detect lokasi atau peta interaktif untuk memudahkan pemilihan alamat.<\/li>\r\n<li><strong>Konfirmasi Pesanan:<\/strong> Ringkasan pesanan yang jelas sebelum pengguna mengkonfirmasi pembayaran.<\/li>\r\n<\/ul>\r\n<h4>4. Pelacakan Pesanan (Order Tracking)<\/h4>\r\n<ul>\r\n<li><strong>Status Real-time:<\/strong> Pengguna dapat melacak status pesanan mereka secara real-time, mulai dari \"Pesanan Diterima,\" \"Sedang Diproses,\" \"Dalam Perjalanan,\" hingga \"Telah Tiba.<\/li>\r\n<li><strong>Peta Interaktif:<\/strong> Peta yang menunjukkan lokasi pengantar dan perkiraan waktu tiba.<\/li>\r\n<li><strong>Informasi Pengantar:<\/strong> Nama pengantar dan nomor kontak (jika diperlukan).<\/li>\r\n<\/ul>\r\n<h4>&nbsp;5. Fitur Tambahan yang Memperkaya UX<\/h4>\r\n<ul>\r\n<li><strong>Filter dan Sortir:<\/strong> Opsi untuk menyaring restoran berdasarkan kriteria tertentu (misalnya, \"Halal,\" \"Gratis Ongkir,\" \"Tercepat\") dan mengurutkan berdasarkan rating, harga, atau jarak.<\/li>\r\n<li><strong>Favorit:<\/strong> Pengguna dapat menandai restoran atau hidangan favorit untuk akses cepat di kemudian hari.<\/li>\r\n<li><strong>Notifikasi Personal:<\/strong> Pemberitahuan tentang status pesanan, promo baru, atau rekomendasi yang relevan.<\/li>\r\n<li><strong>Dukungan Pelanggan:<\/strong> Akses mudah ke bantuan atau dukungan jika terjadi masalah.<\/li>\r\n<\/ul>\r\n<p>Dengan pendekatan desain UI\/UX yang berpusat pada pengguna ini, Jajan.in tidak hanya sekadar aplikasi food delivery, tetapi menjadi <strong>mitra yang menyenangkan dan dapat diandalkan<\/strong> dalam setiap pengalaman kuliner Anda. Kami percaya bahwa setiap detail, sekecil apa pun, berkontribusi pada pengalaman pengguna yang luar biasa.<\/p>",
+        "img": "img\/img_689d171f3ef2d.png",
         "client": "Jajanin ",
-        "link": "",
+        "link": "https:\/\/www.figma.com\/proto\/VZwpsfVh3qzQAdwQYDEnG3\/jajan.in?node-id=20-103&p=f&t=FQzPJGvbMetpNCLU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
         "published": true,
-        "updated_at": "2025-07-19 01:25:17",
-        "updated_unix": 1752863117
+        "updated_at": "2025-08-14 05:52:15",
+        "updated_unix": 1755125535
     },
     {
         "id": 3,
@@ -40,12 +40,12 @@
             "Mobile Apps"
         ],
         "description": "<p><strong data-start=\"158\" data-end=\"166\">Need <\/strong>merupakan&nbsp;sebuah aplikasi <em data-start=\"184\" data-end=\"208\">Home Furnishing Retail<\/em> yang menawarkan pengalaman belanja furnitur online yang modern, efisien, dan mudah diakses. Desain dikembangkan melalui riset pengguna dan prototipe interaktif untuk memastikan solusi yang relevan dan fungsional.&nbsp;<\/p>\r\n<p data-start=\"423\" data-end=\"690\">Fitur utama meliputi pencarian produk dengan filter, wishlist, inspirasi desain ruangan, serta proses checkout yang sederhana dan cepat. Antarmuka dirancang dengan tampilan bersih dan navigasi yang intuitif, mendukung kenyamanan pengguna sepanjang perjalanan belanja.<\/p>\r\n<p data-start=\"692\" data-end=\"816\">Proyek ini mendapat tanggapan positif berkat desain yang responsif, estetis, dan sesuai dengan kebutuhan pengguna masa kini.<\/p>",
-        "img": "img\/img_687a9149da9b5.png",
+        "img": "img\/img_689d16e3c9a80.png",
         "client": "Need",
         "link": "",
         "published": true,
-        "updated_at": "2025-07-19 01:24:09",
-        "updated_unix": 1752863049
+        "updated_at": "2025-08-14 05:51:15",
+        "updated_unix": 1755125475
     },
     {
         "id": 4,
@@ -56,12 +56,12 @@
             "Landing Page"
         ],
         "description": "<p>The landing page for a furniture store with a minimalist design is designed with a clean appearance and simple navigation, highlighting superior products in a grid layout, utilizing attractive hero images, customer testimonials, special offers, as well as a neutral color palette and modern typography to create a unique user experience professional, responsive and conversion focused.<\/p>",
-        "img": "img\/img_687a92ee08412.png",
+        "img": "img\/img_689d17369ce40.png",
         "client": "Need",
         "link": "",
         "published": true,
-        "updated_at": "2025-07-19 01:31:10",
-        "updated_unix": 1752863470
+        "updated_at": "2025-08-14 05:52:38",
+        "updated_unix": 1755125558
     },
     {
         "id": 5,
@@ -71,14 +71,14 @@
             "UI DESIGN",
             "Mobile Apps"
         ],
-        "description": "<p data-start=\"231\" data-end=\"627\"><strong data-start=\"231\" data-end=\"246\">Bank Jawara<\/strong> kini hadir dengan wajah baru&mdash;versi terbaru yang telah melalui perombakan menyeluruh demi menjawab kebutuhan pengguna yang terus berkembang. Sebagai platform perbankan digital modern, Bank Jawara berkomitmen untuk menghadirkan layanan finansial yang <strong data-start=\"496\" data-end=\"505\">mudah<\/strong>, <strong data-start=\"507\" data-end=\"515\">aman<\/strong>, dan <strong data-start=\"521\" data-end=\"530\">cepat<\/strong>, dalam balutan desain yang lebih segar dan pengalaman pengguna yang lebih halus dari sebelumnya.<\/p>\r\n<p data-start=\"629\" data-end=\"1024\">Rombakan ini bukan sekadar perubahan tampilan, melainkan langkah strategis untuk memperkuat misi utama: <strong data-start=\"733\" data-end=\"764\">mendorong inklusi finansial<\/strong> bagi seluruh lapisan masyarakat Indonesia. Dengan antarmuka yang lebih intuitif dan pengalaman pengguna (UX) yang dioptimalkan, Bank Jawara memastikan setiap orang&mdash;dari pengguna baru hingga nasabah berpengalaman&mdash;bisa menikmati layanan yang efisien dan nyaman.<\/p>\r\n<p data-start=\"1026\" data-end=\"1370\">Desain visual terbaru Bank Jawara mengangkat nuansa <strong data-start=\"1078\" data-end=\"1086\">ungu<\/strong> dan <strong data-start=\"1091\" data-end=\"1101\">oranye<\/strong>, melambangkan <strong data-start=\"1116\" data-end=\"1130\">keanggunan<\/strong>, <strong data-start=\"1132\" data-end=\"1149\">kebijaksanaan<\/strong>, <strong data-start=\"1151\" data-end=\"1163\">semangat<\/strong>, dan <strong data-start=\"1169\" data-end=\"1182\">optimisme<\/strong>. Warna-warna ini bukan hanya pilihan estetika, tetapi juga refleksi dari semangat baru Bank Jawara dalam menghadirkan solusi perbankan yang tidak hanya fungsional, tetapi juga inspiratif.<\/p>\r\n<p data-start=\"1372\" data-end=\"1581\">Dengan pembaruan ini, Bank Jawara siap menjadi pilihan utama masyarakat yang menginginkan pengalaman finansial modern yang menyeluruh&mdash;<strong data-start=\"1506\" data-end=\"1581\">canggih secara teknologi, ramah dalam penggunaan, dan kuat dalam nilai.<\/strong><\/p>",
-        "img": "img\/img_687a8cc0b4f96.png",
+        "description": "<p>Bank Jawara now has a new look the latest version has undergone a complete overhaul to meet the evolving needs of its users. As a modern digital banking platform, Bank Jawara is committed to providing easy, secure, and fast financial services, with a fresher design and a smoother user experience than ever before.<\/p>\r\n<p>This overhaul is not just a cosmetic change, but a strategic step to strengthen its core mission: driving financial inclusion for all levels of Indonesian society. With a more intuitive interface and optimized user experience (UX), Bank Jawara ensures that everyone from new users to experienced customers can enjoy efficient and convenient services.<\/p>\r\n<p>Bank Jawara's latest visual design features shades of purple and orange, symbolizing elegance, wisdom, passion, and optimism. These colors are not just aesthetic choices, but also a reflection of Bank Jawara's renewed spirit in providing banking solutions that are not only functional but also inspiring.<\/p>\r\n<p>With this update, Bank Jawara is poised to become the primary choice for people seeking a comprehensive, modern financial experience technologically sophisticated, user-friendly, and strong in value.<\/p>",
+        "img": "img\/img_689d1691e6e16.png",
         "client": "Jawara",
         "link": "https:\/\/aksanazachri.my.id\/dokumen\/jawara.pdf",
         "published": true,
         "published_at": "2025-06-25 23:00:25",
-        "updated_at": "2025-07-19 01:04:48",
-        "updated_unix": 1752861888
+        "updated_at": "2025-08-14 17:12:05",
+        "updated_unix": 1755166325
     },
     {
         "id": 6,
@@ -86,15 +86,16 @@
         "date": "2023-11",
         "type": [
             "UI DESIGN",
-            "Mobile Apps"
+            "Mobile Apps",
+            "Real Project"
         ],
         "description": "<p>The Zero app is designed with an intuitive UI design that makes it easy for users to record and understand their personal carbon emissions through clear data visualizations. The app&rsquo;s community page is designed to resemble a social media platform, allowing users to interact, share sustainability tips, and motivate each other through features such as posts, comments, and leaderboards. Meanwhile, the donation feature provides a transparent interface to select and support verified environmental projects, complete with project details, donation progress, and easy payment flow.<\/p>",
-        "img": "img\/img_687a8fa2ee5f8.png",
+        "img": "img\/img_689d170480ada.png",
         "client": "Zero",
         "link": "https:\/\/aksanazachri.my.id\/dokumen\/Zero.pdf",
         "published": true,
-        "updated_at": "2025-07-19 01:17:06",
-        "updated_unix": 1752862626
+        "updated_at": "2025-08-19 14:16:48",
+        "updated_unix": 1755587808
     },
     {
         "id": 7,
@@ -102,14 +103,16 @@
         "date": "2025-04",
         "type": [
             "UI DESIGN",
-            "Web Design"
+            "Web Design",
+            "Academic Project"
         ],
-        "description": "<p data-start=\"60\" data-end=\"546\">Website <strong data-start=\"68\" data-end=\"95\">E-Sport Arena Community<\/strong> merupakan hasil perancangan UI\/UX yang berfokus pada peningkatan pengalaman pengguna dalam komunitas e-sport. Website ini dirancang untuk menjadi platform utama bagi para anggota komunitas agar dapat terhubung, mengikuti berbagai event, serta melakukan transaksi merchandise dengan mudah dan nyaman. Dalam proyek ini, fokus desain dibagi menjadi tiga bagian utama: <strong data-start=\"461\" data-end=\"477\">halaman Home<\/strong>, <strong data-start=\"479\" data-end=\"506\">halaman transaksi event<\/strong>, dan <strong data-start=\"512\" data-end=\"545\">halaman transaksi merchandise<\/strong>.<\/p>\r\n<p data-start=\"548\" data-end=\"1114\">Halaman Home dirancang dengan tampilan visual yang menarik serta navigasi yang intuitif untuk menyajikan informasi terbaru seputar event, berita komunitas, dan highlight produk. Pada halaman transaksi event, desain diarahkan agar alur pendaftaran atau pembelian tiket terasa cepat, praktis, dan aman digunakan di berbagai perangkat. Sementara itu, halaman transaksi merchandise disusun seperti katalog toko online dengan tampilan produk yang jelas, tombol aksi yang menonjol, dan proses checkout yang sederhana untuk meningkatkan kenyamanan pengguna saat berbelanja.<\/p>\r\n<p data-start=\"1116\" data-end=\"1363\">Secara keseluruhan, desain UI\/UX ini bertujuan untuk meningkatkan keterlibatan pengguna, memperkuat identitas brand E-Sport Arena Community secara visual, serta mendukung proses digitalisasi transaksi dalam komunitas gaming yang aktif dan dinamis.<\/p>",
-        "img": "img\/img_687a8bf760565.png",
+        "description": "<p>The E-Sport Arena Community website is the result of a UI\/UX design focused on enhancing the user experience within the esports community. The website is designed to be the primary platform for community members to connect, participate in various events, and easily and conveniently transact merchandise. The design focus for this project is divided into three main sections: the Home page, the event transaction page, and the merchandise transaction page.<\/p>\r\n<p>The Home page is designed with an appealing visual appearance and intuitive navigation to present the latest information about events, community news, and product highlights. The event transaction page is designed to ensure a fast, practical, and secure registration or ticket purchase process across various devices. Meanwhile, the merchandise transaction page is structured like an online store catalog, with clear product displays, prominent action buttons, and a simple checkout process to enhance user experience.<\/p>\r\n<p>Overall, this UI\/UX design aims to increase user engagement, visually strengthen the E-Sport Arena Community brand identity, and support the digitalization of transactions within an active and dynamic gaming community.<\/p>",
+        "img": "img\/img_689d165c0d99c.png",
         "client": "Skripsi Project",
-        "link": "https:\/\/www.figma.com\/proto\/fuPzbMGpPX9LcNRrG1FXUt\/Website-Esport-Arena?node-id=510-2671&starting-point-node-id=510%3A2671&t=n1SBj9NZutiz9TrY-1",
-        "updated_at": "2025-07-19 01:01:27",
-        "updated_unix": 1752861687
+        "link": "https:\/\/aksanazachri.my.id\/dokumen\/PRD UI_UX Design E-Sport Arena.pdf",
+        "published": true,
+        "updated_at": "2025-08-21 20:03:55",
+        "updated_unix": 1755781435
     },
     {
         "id": 8,
@@ -119,12 +122,28 @@
             "UI DESIGN",
             "Landing Page"
         ],
-        "description": "<p data-start=\"258\" data-end=\"303\">🍜 <strong data-start=\"261\" data-end=\"301\">Dimsumku &mdash; UI\/UX Landing Page Design<\/strong><\/p>\r\n<p data-start=\"305\" data-end=\"572\">Landing page ini dirancang sebagai katalog digital yang menyajikan berbagai pilihan dimsum secara menarik dan menggugah selera.<br data-start=\"432\" data-end=\"435\">Fokus utama ada pada visual makanan, navigasi yang mudah, serta flow pengguna yang langsung diarahkan untuk <em data-start=\"543\" data-end=\"569\">pesan cepat via WhatsApp<\/em>.<\/p>\r\n<p data-start=\"574\" data-end=\"605\">🎯 Fitur unggulan dalam desain:<\/p>\r\n<ul>\r\n<li data-start=\"574\" data-end=\"605\"><strong data-start=\"608\" data-end=\"626\">Katalog produk<\/strong> dengan foto-foto dimsum yang menggoda<\/li>\r\n<li data-start=\"574\" data-end=\"605\"><strong data-start=\"669\" data-end=\"693\">CTA &ldquo;Pesan Sekarang&rdquo;<\/strong> yang langsung terhubung ke WhatsApp<\/li>\r\n<li data-start=\"574\" data-end=\"605\"><strong data-start=\"734\" data-end=\"757\">Testimoni pelanggan<\/strong> untuk membangun kepercayaan<\/li>\r\n<li data-start=\"574\" data-end=\"605\"><strong data-start=\"790\" data-end=\"817\">Highlight promo spesial<\/strong> yang mudah terlihat<\/li>\r\n<\/ul>\r\n<p>Dengan pendekatan clean dan hangat, desain ini bertujuan meningkatkan konversi sekaligus membawa kesan rumahan dan bersahabat, sesuai karakter brand <strong data-start=\"1059\" data-end=\"1071\">Dimsumku<\/strong>.<\/p>",
-        "img": "img\/img_687b363468924.png",
+        "description": "<p><strong>🍜 Dimsumku &mdash; UI\/UX Landing Page Design<\/strong><\/p>\r\n<p>This landing page is designed as a digital catalog that presents a variety of dim sum options in an attractive and appetizing manner.<br>The main focus is on the visuals of the food, easy navigation, and a user flow that directly directs you to quick orders via WhatsApp.<\/p>\r\n<p><strong>🎯 Key design features:<\/strong><\/p>\r\n<ul>\r\n<li>Product catalog with tempting dim sum photos<\/li>\r\n<li>&ldquo;Order Now&rdquo; CTA that directly links to WhatsApp<\/li>\r\n<li>Customer testimonials to build trust<\/li>\r\n<li>Highlight special promotions that are easily visible<\/li>\r\n<\/ul>\r\n<p>With a clean and warm approach, this design aims to increase conversions while conveying a homey and friendly feel, in keeping with the character of the Dimsumku brand.<\/p>",
+        "img": "img\/img_689d163aea2fc.png",
         "client": "Dimsumku",
         "link": "https:\/\/www.figma.com\/proto\/IQxaRe9DiHfLFUUQznOJkN\/Dimsumku?node-id=24-53&amp;t=epRkALeIkAPGxsv4-1&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;page-id=0%3A1&amp;starting-point-node-id=24%3A53",
         "published": true,
-        "updated_at": "2025-07-19 13:09:32",
-        "updated_unix": 1752905372
+        "updated_at": "2025-08-14 17:13:51",
+        "updated_unix": 1755166431
+    },
+    {
+        "id": 9,
+        "title": "Portofolio Website",
+        "date": "2025-01",
+        "type": [
+            "UI DESIGN",
+            "Web Design"
+        ],
+        "description": "",
+        "img": "img\/img_689d15fcac063.png",
+        "client": "Web Portofolio",
+        "link": "https:\/\/aksanazachri.my.id\/",
+        "published": true,
+        "updated_at": "2025-08-14 05:47:24",
+        "updated_unix": 1755125244
     }
 ]

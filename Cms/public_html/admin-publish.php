@@ -23,7 +23,21 @@ foreach ($data as &$item) {
 }
 
 if ($updated) {
+    // Simpan data.json terbaru
     file_put_contents($dataFile, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+    // === Tambahkan update version.json ===
+    $versionFile = 'version.json';
+    if (file_exists($versionFile)) {
+        $versionData = json_decode(file_get_contents($versionFile), true);
+        if (!is_array($versionData)) $versionData = ["version" => 0];
+        $versionData['version'] = $versionData['version'] + 1;
+    } else {
+        $versionData = ["version" => 1];
+    }
+    file_put_contents($versionFile, json_encode($versionData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    // ====================================
+
     $_SESSION['flash'] = "Status publish berhasil diperbarui.";
 } else {
     $_SESSION['flash'] = "Data tidak ditemukan.";

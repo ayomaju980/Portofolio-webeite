@@ -8,6 +8,18 @@ RewriteRule ^Dashboard$ dashboard.php [L]
 # Redirect "Remote" to admin-footer.php
 RewriteRule ^Remote$ admin-footer.php [L]
 
+# Redirect "List-Sertifikat" to admin-certificates.php
+RewriteRule ^List-Sertifikat$ admin-certificates.php [L]
+
+# Redirect "Edit-Sertifikat" to edit-certificate.php
+RewriteRule ^Edit-Sertifikat$ edit-certificate.php [L]
+
+# Redirect "Hapus-Sertifikat" to delete-certificate.php
+RewriteRule ^Hapus-Sertifikat$ delete-certificate.php [L]
+
+# Redirect "Add-Sertifikat" to add-certificate.php
+RewriteRule ^Add-Sertifikat$ add-certificate.php [L]
+
 # Redirect "List-Portofolio" to admin.php
 RewriteRule ^List-Portofolio$ admin.php [L]
 
