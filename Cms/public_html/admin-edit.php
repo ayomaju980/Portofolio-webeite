@@ -35,6 +35,9 @@ if ($id === null || $index === false) {
 }
 
 $item = $data[$index];
+// fallback jika key lama belum ada
+$item['prd_link'] = $item['prd_link'] ?? '';
+
 $success = false;
 $error = '';
 
@@ -93,6 +96,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $types = $_POST['type'];
             if (!is_array($types)) $types = [$types];
 
+            // Ambil dan rapikan PRD link
+            $prd_link = trim($_POST['prd_link'] ?? '');
+
             // Simpan data hasil edit
             $data[$index] = [
                 "id"          => (int)$id,
@@ -102,7 +108,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 "description" => $_POST['description'],
                 "img"         => $imgRelativePath,
                 "client"      => $_POST['client'] ?? '',
-                "link"        => $_POST['link'] ?? ''
+                "link"        => $_POST['link'] ?? '',
+                "prd_link"    => $prd_link        // ← disimpan
             ];
 
             // Pertahankan status publish dan waktu publish kalau ada
@@ -124,6 +131,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             logActivity("Mengedit portofolio: " . $_POST['title']);
 
             $success = true;
+            // refresh $item agar form menampilkan nilai terbaru
+            $item = $data[$index];
         }
     }
 }
@@ -150,7 +159,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </script>
   <style>
     :root{
-      --sidebar-w: 240px;   /* konsisten pakai -w */
+      --sidebar-w: 240px;
       --topbar-h: 56px;
     }
     body { background-color: #f5f7fa; }
@@ -193,42 +202,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     .img-preview { max-width: 220px; border-radius: .5rem; }
 
     /* ===== Main spacing ===== */
-    .main-content { margin-left: var(--sidebar-w); padding: 1.5rem; } /* desktop default */
+    .main-content { margin-left: var(--sidebar-w); padding: 1.5rem; }
 
-    /* Toast anim */
     .toast { animation: slideIn .5s ease; }
     @keyframes slideIn { from { transform: translateY(-20px); opacity:0; } to { transform: translateY(0); opacity:1; } }
 
     /* ====== RESPONSIVE ====== */
-    /* ≤ 991.98px : tablet & smartphone */
     @media (max-width: 991.98px) {
-      /* jadikan sidebar off-canvas */
       .sidebar{ transform: translateX(-100%); }
       .sidebar.show{ transform: translateX(0); }
       .sidebar .close-btn{ display:block; }
       .topbar{ display:flex; }
-
-      .main-content { margin-left: 0; padding-top: calc(var(--topbar-h) + 1rem); } /* hindari ketutup topbar */
-
-      /* Form spacing tighter on small screens */
+      .main-content { margin-left: 0; padding-top: calc(var(--topbar-h) + 1rem); }
       .card { padding: 1rem !important; }
       .img-preview { max-width: 160px; }
     }
-
-    /* Smartphone (≤ 575.98px) */
     @media (max-width: 575.98px) {
       .page-title { font-size: 1.1rem; }
       .btn { padding: .5rem .75rem; }
       .grid-tight > [class*="col-"] { margin-bottom: .5rem; }
       .img-preview { max-width: 130px; }
     }
-
-    /* Tablet only (576px – 991.98px) */
     @media (min-width: 576px) and (max-width: 991.98px) {
       .page-title { font-size: 1.25rem; }
     }
-
-    /* Desktop (≥ 992px) – refine spacing */
     @media (min-width: 992px) {
       .main-content { padding: 2rem; }
     }
@@ -298,7 +295,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               foreach ($typeList as $i => $type):
                 $checked = in_array($type, $item['type']) ? 'checked' : '';
             ?>
-              <!-- 2 kolom di smartphone, 3 kolom di tablet, bebas di desktop -->
               <div class="col-6 col-sm-4 col-lg-3">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" name="type[]" value="<?= htmlspecialchars($type) ?>" id="type<?= $i ?>" <?= $checked ?>>
@@ -327,6 +323,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <input type="text" name="link" class="form-control" value="<?= htmlspecialchars($item['link']) ?>">
             </div>
           </div>
+        </div>
+
+        <!-- Tambahan: Link Dokumen PRD -->
+        <div class="mb-3">
+          <label class="form-label">Link Dokumen PRD</label>
+          <input type="url" name="prd_link" class="form-control" placeholder="https://docs.google.com/..." value="<?= htmlspecialchars($item['prd_link']) ?>">
+          <small class="text-muted">Contoh: Google Docs / Notion / Confluence.</small>
         </div>
 
         <div class="mb-3">
