@@ -374,7 +374,7 @@ function toggleSidebar() {
 <?php endif; ?>
 
 // Nonaktifkan klik kanan (opsional)
-document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListenr('contextmenu', e => e.preventDefault());
 </script>
 </body>
 </html>
